@@ -35,11 +35,11 @@ export default function CreateStudent() {
       <Form>
         <Form.Group className="mb-4" controlId="formInfo">
           <Form.Label>Name</Form.Label>
-          <Form.Control type="name" className="mb-2" placeholder="Enter your name"  onChange={(e) => setName(e.target.value)}/>
+          <Form.Control type="text" className="mb-2" placeholder="Enter your name"  onChange={(e) => setName(e.target.value)}/>
           <Form.Label>University</Form.Label>
-          <Form.Control type="university" className="mb-2" placeholder="Enter your university" onChange={(e) => setUniversity(e.target.value)}/>
+          <Form.Control type="text" className="mb-2" placeholder="Enter your university" onChange={(e) => setUniversity(e.target.value)}/>
           <Form.Label>Course</Form.Label>
-          <Form.Control type="course" className="mb-2" placeholder="Enter your course" onChange={(e) => setCourse(e.target.value)}/>
+          <Form.Control type="text" className="mb-2" placeholder="Enter your course" onChange={(e) => setCourse(e.target.value)}/>
         </Form.Group>
 
         <Button variant="primary" type="submit" onClick={submit}>
