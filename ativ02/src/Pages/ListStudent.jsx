@@ -3,10 +3,10 @@ import { Container, Stack, Button} from "react-bootstrap";
 import MainNavbar from "../Components/MainNavbar";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../FirebaseConfig";
-import Professor from "../Components/Professor";
 import { deleteDoc, doc } from "firebase/firestore";
 import { FaEdit, FaTrash } from "react-icons/fa";
 import { LinkContainer } from "react-router-bootstrap";
+import Student from "../Components/Student";
 
 export default function ListProfessor() {
   const [studentData, setStudentData] = useState([]);
@@ -45,7 +45,7 @@ export default function ListProfessor() {
           {studentData.map((p) => (
             <Stack direction="horizontal" gap={3}>
               <div>
-                <Professor
+                <Student
                   key={p.id}
                   name={p.name}
                   university={p.university}
