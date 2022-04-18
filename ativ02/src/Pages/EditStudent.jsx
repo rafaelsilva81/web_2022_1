@@ -49,6 +49,7 @@ export default function EditStudent() {
     <div>
       <MainNavbar />
       <Container className="mt-4 w-50">
+        <h1> Editing Student : </h1>
         <Form>
           <Form.Group className="mb-4" controlId="formInfo">
             <Form.Label>Name</Form.Label>

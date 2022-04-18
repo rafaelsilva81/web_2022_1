@@ -49,6 +49,7 @@ export default function EditProfessor() {
     <div>
       <MainNavbar />
       <Container className="mt-4 w-50">
+        <h1> Editing Professor : </h1>
         <Form>
           <Form.Group className="mb-4" controlId="formInfo">
             <Form.Label>Name</Form.Label>

@@ -40,7 +40,7 @@ export default function ListProfessor() {
     <div>
       <MainNavbar />
       <Container className="mt-4 w-80">
-        <h1> List of Professors : </h1>
+        <h1> List of Students : </h1>
         <Stack gap={2} className="mt-3">
           {studentData.map((p) => (
             <Stack direction="horizontal" gap={3}>
