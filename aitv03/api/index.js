@@ -10,6 +10,6 @@ app.use(express.json());
 app.use('/api/students', studentRoutes);
 app.use('/api/professors', professorRoutes)
 
-app.listen(3000, () =>
-  console.log('Listening on port 3000!'),
+app.listen(3333, () =>
+  console.log('Listening on port 3333!'),
 );
